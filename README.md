@@ -9,4 +9,4 @@
 
 ![live_img]()
 
-[click here to see live demo]()
+[click here to see live demo](https://prity25-coder.github.io/Alarm-Clock/)
