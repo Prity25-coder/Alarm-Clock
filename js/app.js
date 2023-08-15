@@ -4,7 +4,7 @@ const SetAlarmBtn = document.getElementById('setAlarmBtn');
 const StopAlarmBtn = document.getElementById('stopAlarmBtn');
 
 // alarm which will play when alarm time comes
-const alarmSound = new Audio('./assets/audios/coding_ninjas.mpeg');
+const alarmSound = new Audio('./assets/audios/coding_ninjas.mp3');
 
 const Hours = document.getElementById('hours');
 const Minutes = document.getElementById('minutes');
