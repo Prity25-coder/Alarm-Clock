@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.mainContainer {
+    width: 100vw;
+    height: 100vh;
+    background-color:#D4F1F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mainContainer p {
+    padding-bottom: .2rem;
+    font-size: 50px;
+    font-style: italic;
+    color:rgb(6, 82, 117);
+    font-weight: bold;
+}
+
+.clockContainer {
+    background-color: wheat;
+    min-height: 400px;
+    min-width: 700px;
+    box-shadow: 5px 15px 40px 8px #500822;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+
+.clockContainer:hover {
+    box-shadow: 6px 20px 35px 8px #022b0e;
+}
+
+.timeContainer {
+    text-align: center;
+}
+
+.timeContainer h2 {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px #b19696;
+}
+
+.timeContainer h1 {
+    margin-top: 1rem;
+    font-size: 3rem;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px #b19696;
+}
+
+.setTimeContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.setTimeContainer span {
+    font-size: 1.5rem;
+    font-weight: 550;
+    margin-right: 0.5rem;
+}
+
+.setTimeContainer select {
+    outline: none;
+    border: none;
+    height: 53px;
+    font-size: 19px;
+    width: 18%;
+    padding: 5px;
+    border-radius: .5rem;
+    text-align: center;
+}
