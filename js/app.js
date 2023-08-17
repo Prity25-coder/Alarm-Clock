@@ -45,7 +45,7 @@ setInterval(function () {
   const S = getFormattedNum(currentDate.getSeconds());
 
   // Am and PM logic
-  const amOrPm = H > 12 ? 'PM' : 'AM';
+  const amOrPm = H >= 12 ? 'PM' : 'AM';
 
   H = H > 12 ? H - 12 : H;
 
